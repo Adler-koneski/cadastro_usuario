@@ -1,33 +1,38 @@
-# Cadastro de Usuário 📱
+# 📋 App de Cadastro de Usuários
 
-Este é um projeto Android desenvolvido para fins de aprendizado em Desenvolvimento Mobile. O aplicativo permite o cadastro simples de usuários (nome e e-mail) e a visualização desses dados em uma lista.
+Projeto desenvolvido em sala de aula na disciplina de Desenvolvimento Mobile.
+O app permite cadastrar usuários e visualizá-los em uma lista dinâmica.
 
-## 🚀 Funcionalidades
+## ✨ O que o app faz?
 
-- **Tela Principal**: Exibe uma lista de usuários cadastrados utilizando `RecyclerView`.
-- **Cadastro de Usuário**: Interface para inserir nome completo e e-mail.
-- **Persistência Temporária**: Os dados são adicionados a uma lista compartilhada entre as Activities.
+- Cadastra usuários com nome e e-mail
+- Lista todos os usuários cadastrados na tela principal
+- Navegação entre telas de forma simples e intuitiva
 
-## 🛠️ Tecnologias Utilizadas no Projeto
+## 🔧 Tecnologias
 
-- **Linguagem**: Java
-- **Android SDK**: Componentes modernos como `ConstraintLayout` e `LinearLayout`.
-- **Material Design**: Uso de `TextInputLayout` e `TextInputEditText` para uma melhor experiência de entrada de dados.
-- **Componentes de UI**: `RecyclerView` para listagem eficiente.
+- Java
+- Android Studio
+- RecyclerView
+- Material Design
+- ConstraintLayout
 
-## 📂 Estrutura do Projeto
+## 📁 Telas do Projeto
 
-- `MainActivity`: Tela principal que gerencia a lista de usuários.
-- `CreateUser`: Tela responsável pelo formulário de cadastro.
-- `UserAdapter`: Componente em desenvolvimento para vincular os dados à `RecyclerView`.
-- `layouts`: Arquivos XML definindo a interface visual (`activity_main.xml` e `create_user.xml`).
+| Tela | Descrição |
+|------|-----------|
+| `MainActivity` | Lista os usuários cadastrados |
+| `CreateUser` | Formulário para novo cadastro |
 
-## 📝 Como executamos
+## ⚙️ Como executar
+```bash
+1. Clone este repositório
+2. Abra no Android Studio
+3. Aguarde a sincronização do Gradle
+4. Rode em um emulador ou celular Android (mínimo API 21)
+```
 
-1. Clone o repositório.
-2. Abra o projeto no **Android Studio**.
-3. Sincronize o Gradle.
-4. Execute em um emulador ou dispositivo físico com Android 5.0 (API 21) ou superior.
+## 📚 Contexto
 
----
-*Projeto desenvolvido durante as aulas de Desenvolvimento Mobile.*
+Projeto acadêmico desenvolvido para praticar conceitos de
+desenvolvimento mobile com Android nativo em Java.
