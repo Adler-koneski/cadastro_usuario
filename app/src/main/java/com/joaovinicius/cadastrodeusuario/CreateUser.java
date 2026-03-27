@@ -1,6 +1,6 @@
 package com.joaovinicius.cadastrodeusuario;
 
-//Bloco de Importações
+
 import android.os.Bundle;
 import android.widget.Button;
 
